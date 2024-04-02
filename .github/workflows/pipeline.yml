@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Display name
+      run: echo "velinilev"
     - name: Checkout the reposotory
       uses: actions/checkout@v3
     - name: Use Node.js 20.x
